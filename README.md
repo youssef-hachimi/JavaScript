@@ -28,23 +28,7 @@ The repository is organized into the following sections:
 
 ---
 
-## Getting Started
 
-To explore this repository:
-
-1. Clone the repository to your local machine:
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/javascript.git
-    ```
-
-2. Navigate to the directory:
-    ```bash
-    cd javascript
-    ```
-
-3. Browse through the folders to view the projects, lessons, exercises, and assignments.
-
----
 
 ## Technologies Used
 
