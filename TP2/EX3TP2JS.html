@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrôle du Formulaire</title>
+    <link rel="stylesheet" href="/TP2/EX3TP2JS.css">
+</head>
+<body>
+    
+    <form id="userForm">
+        <label for="pseudo">nom de utilisateur</label>
+        <input type="text" id="pseudo" name="pseudo" placeholder="Entrez votre pseudo">
+        <div id="pseudoError" class="error"></div>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Entrez votre email">
+        <div id="emailError" class="error"></div>
+
+        <label for="age">Âge</label>
+        <input type="number" id="age" name="age" placeholder="Entrez votre âge">
+        <div id="ageError" class="error"></div>
+
+        <button type="button" id="validateButton">Valider</button>
+    </form>
+    <script type="text/javascript" src="/TP2/EX3TP2JS.js"></script>  
+
+</body>
+</html>
